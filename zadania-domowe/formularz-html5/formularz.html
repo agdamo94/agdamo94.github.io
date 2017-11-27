@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/orchowska.magdalena@gmail.com" method="post">
+
+        <label for="name">Imię</label><br/>
+        <input type="text" name="name" id="name"><br/>
+
+        <label for="surname">Nazwisko</label><br/>
+        <input type="text" name="surname" id="surname"><br/>
+
+        <label for=email>Email</label><br/>
+        <input type="email" name="_replyto" id="email"><br/>
+
+        <label for="telephone">Numer telefonu</label><br/>
+        <input type="tel" name="telephone" id="telephone"><br/>
+
+        <label for="city">Miasto</label><br/>
+        <select name="city" id="city">
+            <option value="warszawa">Warszawa</option>
+            <option value="kraków">Kraków</option>
+            <option value="gdańsk">Gdańsk</option>
+        </select><br/><br/>
+
+        <label for="gender">Płeć</label><br/>
+        <input type="radio" name="gender" id="gender" value="male" checked>Mężczyzna
+        <input type="radio" name="gender" value="female">Kobieta<br/><br/>
+
+        <label for="personal_data">Zgoda na przetwarzanie danych osobowych</label><br/>
+        <input type="checkbox" name="agree" id="personal_data" value="yes">Tak
+        <input type="checkbox" name="disagree" value="no">Nie<br/><br/>
+
+        <label for="message">Wiadomość</label><br/>
+        <textarea name="message" id="message" cols="30" rows="10" maxlength="150"></textarea><br/>
+
+        <input type="submit" value="Wyślij">
+
+
+    </form>
+</body>
+
+</html>
