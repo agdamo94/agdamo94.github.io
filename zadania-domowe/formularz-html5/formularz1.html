@@ -3,45 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Formularz</title>
+    <title>Form</title>
 </head>
 
 <body>
     <form action="https://formspree.io/orchowska.magdalena@gmail.com" method="post" autocomplete="on">
+      <div id="container"><br/>
+        <fieldset><legend><b>Customer Info</b></legend>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" autofocus placeholder="Enter your name" required><br/><br/>
 
-        <div id="container"><br/>
+          <label for="telephone">Numer telefonu:</label>
+          <input type="tel" name="telephone" id="telephone" placeholder="1-234-567-8910" required><br/><br/>
 
-            <fieldset>
-                <legend><b>Customer Info</b></legend>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name" autofocus placeholder="Enter your name" required><br/><br/>
+          <label for="email">Email address:</label>
+          <input type="email" name="_replyto" id="email" placeholder="Enter your email address" multiple required>
+        </fieldset><br/>
 
-                <label for="telephone">Numer telefonu:</label>
-                <input type="tel" name="telephone" id="telephone" placeholder="1-234-567-8910" required><br/><br/>
+        <fieldset><legend><b>Books</b></legend>
+          <select name="book" id="book">
+          <option value="Początek">"Początek" Dan Brown</option>
+          <option value="Harry">"Harry Potter i Kamień filozoficzny" J.K.Rowlnig</option>
+          <option value="Labirynt">"Labirynt Duchów" Carlos Ruiz Zafon</option>
+          <option value="To">"To" Stephen King</option>
+          <option value="Szpony">"Wiedźmin.Szpony i Kły" Andrzej Sapkowski</option>
+          </select>
 
-                <label for="email">Email address:</label>
-                <input type="email" name="_replyto" id="email" placeholder="Enter your email address" multiple required>
-            </fieldset><br/>
+          <label for="quantity">&nbsp;&nbsp;Quantity (max 5):</label>
+          <input type="number" name="quantity" id="quantity" min="1" max="5">
+        </fieldset><br/>
 
-            <fieldset>
-                <legend><b>Books</b></legend>
-                <label for="book"></label>
-                <select name="book" id="book">
-         <option value="Początek">"Początek" Dan Brown</option>
-         <option value="Harry">"Harry Potter i Kamień filozoficzny" J.K.Rowlnig</option>
-         <option value="Labirynt">"Labirynt Duchów" Carlos Ruiz Zafon</option>
-         <option value="To">"To" Stephen King</option>
-         <option value="Szpony">"Wiedźmin.Szpony i Kły" Andrzej Sapkowski</option>
-      </select>
-
-                <label for="quantity">&nbsp;&nbsp;Quantity (max 5):</label>
-                <input type="number" name="quantity" id="quantity" min="1" max="5">
-            </fieldset><br/>
-
-            <input type="submit" value="Submit">
+          <input type="submit" value="Submit">
+          
         </div>
     </form>
 
 </body>
-
 </html>
