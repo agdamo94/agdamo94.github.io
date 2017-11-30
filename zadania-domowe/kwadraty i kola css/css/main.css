@@ -18,14 +18,14 @@ body {
 
 
 #red {
-    left=0;
-    top=0;
+    left: 0;
+    top: 0;
     background-color: red;
 }
 
 #blue {
     left: 100px;
-    top=0;
+    top: 0;
     background-color: blue;
 }
 
@@ -37,8 +37,6 @@ body {
 
 #yellow {
     top: 100px;
-    right;
-    0;
     background-color: yellow;
 }
 
