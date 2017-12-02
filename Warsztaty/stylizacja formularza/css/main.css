@@ -1,0 +1,36 @@
+body {
+    background-color: #213b50;
+    color: white;
+}
+
+input, textarea, select {
+    background-color: #2b4a64; 
+    border: 0px solid;
+    color: #CCC;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input:focus {
+    background-color: #4e708c;
+    border: solid #ffffff 2px;
+}
+
+textarea:focus {
+    background-color: #4e708c;
+    border: solid #ffffff 2px;
+}
+
+
+input[type="submit"] {
+    background-color: #1ac056;
+    width: 80px;
+    height: 40px;
+    color:azure;
+    text-transform: uppercase;
+    
+}
+
+select {
+    width: 162px;
+}
