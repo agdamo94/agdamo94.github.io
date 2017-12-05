@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Verdana';
+    background-color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h1 span {
+    font-size: 20px;
+}
+
