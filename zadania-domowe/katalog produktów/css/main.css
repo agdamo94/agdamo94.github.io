@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body
 {
 	background-color: #98fb98;
@@ -8,19 +13,18 @@ body
 	width: 100vw;
 	text-align: center;
 	padding: 0;
-    margin-top: 30vh;
-
+    margin-top: 33vh;
+    font-size: 100px;
 }
 
 .postcard
 {
 	display: inline-block;
 	width: 20vw;
-	padding: 2vw;
 }
 
 .overlay {
-    position:relative;
+    position: relative;
     width: 20vw;
     height: 30vh;
 }
@@ -42,16 +46,38 @@ body
 }
 
 .icon {
-    display: block;
-    top: 25%;
-    position: relative;
-    font-size: 60px;
+    margin-top: auto;
+    margin-left: auto;
+
+    font-size: 50px;
     color: white;
 }
 
-img {
+figure {
     width: 20vw;
     height: 30vh;
 }
 
+#img1 {
+    background-image: url(../img/product-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
+#img2 {
+    background-image: url(../img/product-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img3 {
+    background-image: url(../img/product-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img4 {
+    background-image: url(../img/product-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
