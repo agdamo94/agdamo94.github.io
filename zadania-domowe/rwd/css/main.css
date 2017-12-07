@@ -17,3 +17,19 @@ h1 span {
     font-size: 20px;
 }
 
+#header {
+    position: relative;
+    background-image: url(../img/man-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 3%;
+}

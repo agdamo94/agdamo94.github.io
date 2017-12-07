@@ -1,35 +1,11 @@
-#header {
-    width: 100vw;
-    height: 100wh;
-    font-size: 0px;
-}
-
-@media (min-width: 1170px) {
-    #header {
-        position: relative;
-        background-image: url(../img/man-1.jpg);
-        background-size: cover;
-        width: 100vw;
-        height: 100vh;
-
-    }
-
-    .header-text {
-        position: absolute;
-        top: 50%;
-        color: white;
-        left: 3%;
-    }
-
-}
-
 @media (min-width: 992px) and (max-width: 1170px) {
     #header {
         position: relative;
         background-image: url(../img/man-2.jpg);
         background-size: cover;
+        background-position: center;
         width: 100vw;
-        height: 100vh;
+        height: 80vh;
     }
 
     .header-text {
@@ -45,15 +21,16 @@
         position: relative;
         background-image: url(../img/man-1.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
+        background-position: center;
         width: 100vw;
         height: 60vh;
     }
     
     .header-text {
-        width: 100vw;
+        width: 90vw;
         position: absolute;
         top: 100%;
         text-align: center;
+        color: black;
     }
 }
