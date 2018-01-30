@@ -85,13 +85,14 @@ h1 span {
 }
 
 
+#my-photo {
+    text-align: center;
+}
+
 #my-photo img {
     height: 300px;
     border: solid white 15px;
     border-radius: 1.5%;
-    top: 50%;
-    left: 50%;
-    transform: translate(50%);
     margin-bottom: 30px;
 }
 
@@ -224,18 +225,15 @@ h1 span {
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 38px;
-/*
-    margin-left: 75px;
-    margin-bottom: 30px;
-*/
-    margin: 10px auto 20px 75px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #my-name span {
     color: #1ac056;
 }
 
-address {
+address p {
     font-style: normal;
     line-height: 25px;
     margin: 0 auto;
@@ -248,7 +246,8 @@ address {
 }
 
 .content-social-icons {
-    margin: 0 auto 20px 60px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .social-link {
@@ -279,7 +278,7 @@ address {
     font-size: 10px;
     font-weight: 300;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 20px;
     border: solid 0 #2b4a64;
     background-color: #2b4a64;
 }
@@ -293,17 +292,20 @@ address {
 input[type="submit"] {
     width: auto;
     padding: 15px 30px;
-    float: right;
+/*        float: right;*/
     text-transform: uppercase;
     border: solid 1px #fff;
     background-color: #1ac056;
     color: white;
     font-weight: 500;
+    margin-bottom: 20px;
+
 }
 
 input[type="submit"]:hover {
     background-color: #fff;
     color: #1ac056;
+    
 }
 
 
@@ -315,6 +317,7 @@ footer {
 
 footer p {
     margin-left: 6%;
+    margin-top: 10px;
 }
 
 hr.style13 {
