@@ -1,0 +1,33 @@
+@import "zmienne";
+@import "mixiny";
+
+/*Nawigacja*/
+
+#main-nav {
+    background-color: transparent;
+
+    a.navbar-brand {
+        color: $white-color;
+        font-family: $rest-font, sans-serif;
+        font-size: 2em;
+    }
+
+    .nav-item a {
+        color: $white-color;
+        text-transform: uppercase;
+        font-family: $main-font, sans-serif;
+        transition: all .3s;
+
+        &:hover {
+            color: $blue-color;
+        }
+    }
+
+    &.scroll {
+        background-color: rgba(14, 216, 214, 0.75);
+
+        .nav-item a:hover {
+            color: $light-grey-color;
+        }
+    }
+}

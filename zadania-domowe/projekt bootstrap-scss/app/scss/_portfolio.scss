@@ -1,0 +1,90 @@
+@import "zmienne";
+@import "mixiny";
+
+/*Portfolio*/
+
+.portfolio-background {
+    background-color: $bg-color;
+}
+
+/*zdjęcia portfolio*/
+
+.portfolio-image-background {
+    height: 250px;
+    @include bg-image;
+    position: relative;
+    transition: all 0.3s;
+}
+
+#image1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#image2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#image3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#image4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#image5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#image6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+
+
+.portfolio-mask {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 216, 214, 0.5);
+    opacity: 0;
+
+
+    i {
+        position: absolute;
+        @include position-center;
+        color: $white-color;
+    }
+}
+
+.portfolio-image {
+    overflow: hidden;
+}
+
+.portfolio-image-background:hover {
+    transform: scale(1.5);
+
+    .portfolio-mask {
+        opacity: 1;
+        transition: all 0.3s;
+    }
+
+}
+
+
+.image-caption {
+    background-color: $white-color;
+    text-align: center;
+
+    .image-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: $grey-color;
+    }
+
+    .image-caption p {
+        font-size: 15px;
+        font-style: italic;
+        color: $light-grey-color;
+    }
+}

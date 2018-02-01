@@ -1,0 +1,74 @@
+@import "zmienne";
+@import "mixiny";
+
+/*Team section*/
+
+.team-image {
+    width: 300px;
+    height: 300px;
+    position: relative;
+
+    img {
+        position: absolute;
+        border-radius: 50%;
+        width: 250px;
+        @include position-center;
+        margin-left: 33.33px;
+    }
+}
+
+
+.team-caption {
+    margin-top: 10px;
+    text-align: center;
+
+    p {
+        text-align: center;
+        font-weight: 300;
+        font-size: 15px;
+        font-style: italic;
+    }
+}
+
+.team-name {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/*Social icon*/
+
+.icon-set {
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+.social-icon-background {
+    background-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 20px auto 20px 20px;
+    display: inline-block;
+
+    i {
+        color: $white-color;
+        position: absolute;
+        @include position-center;
+    }
+
+    &:hover {
+        background-color: $blue-color;
+    }
+
+}
+
+
+.about-us p {
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px;
+}

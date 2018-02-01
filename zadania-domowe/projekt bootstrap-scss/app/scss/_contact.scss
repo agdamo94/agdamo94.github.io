@@ -1,0 +1,68 @@
+@import "zmienne";
+@import "mixiny";
+
+/*Formularz kontaktowy*/
+
+#contact {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+    padding: 5px;
+
+    .section-header,
+    .section-header .section-title {
+        color: $white-color;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .contact-form .contact-form-column {
+        height: 220px;
+        display: inline-block;
+    }
+
+    input {
+        margin-bottom: 30px;
+    }
+
+    input,
+    textarea {
+        text-transform: uppercase;
+        padding: 15px;
+        font-family: $main-font, sans-serif;
+        border-radius: 5px;
+
+    }
+
+    input:not([type='submit']),
+    textarea {
+        border: 0px solid;
+        width: 500px;
+    }
+
+    textarea {
+        height: 100%;
+    }
+
+    input[type='submit'] {
+        background-color: $blue-color;
+        border: 1px solid $blue-color;
+        color: $white-color;
+        transition: all .3s;
+        margin-top: 30px;
+        cursor: pointer;
+
+        &:hover {
+            @include item-hover;
+            border: 1px solid $blue-color;
+
+        }
+    }
+
+}
+
+
+/*stopka*/
+
+footer {
+    text-align: center;
+    padding: 5px;
+}

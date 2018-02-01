@@ -1,0 +1,17 @@
+@import "zmienne";
+
+@mixin position-center {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin item-hover {
+    background-color: $white-color;
+    color: $blue-color;
+}
+
+@mixin bg-image {
+    background-size: cover;
+    background-position: center;
+}
