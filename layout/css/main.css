@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Montserrat";
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 62.5em;
+    background-image: url(../img/header_01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header .main_navigation {
+    position: absolute;
+    color: #ffffff;
+    word-spacing: 2em;
+    padding: 2em;
+    right: 0;
+    font-size: 1.125em;
+}
+.main_navigation .navigation_list .list_item {
+    display: inline-block;
+    text-decoration: none;    
+}
+
+.main_navigation .navigation_list .list_item i {
+    color: #ffc74a;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    padding: 1em;
+}
+
+header .mask {
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+}
+
+header .main_header {
+    text-align: center;
+    font-size: 5.75em;
+    color: #ffffff;
+}
+
+.main_header span {
+    color: #ed6950;
+}
+
+header .sub_header {
+    font-size: 1.125em;
+    color: #606160;
+    text-align: center;
+    padding: 1em;
+}
+
+.header_content {
+   padding: 10em;
+}
+
+.search_button {
+    width: 14.525em;
+    padding: 0.75em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ffc74a;
+    border-radius: 6.875em;
+    color: #b98000;
+    font-weight: 700;
+    font-size: 1.125em;
+    margin: 2em auto;
+}
+
+.popular {
+    color: #fff;
+    font-size: 1.125em;
+    text-align: center;
+/*    margin-top: 13em;*/
+}
+
+img.place_photo {
+    height: 20em;
+    width: 100%; 
+    text-align: center;
+}
