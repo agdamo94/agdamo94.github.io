@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #edeff1;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu {
+    width: 100%;
+    height: 5em;
+    text-align: right;
+}
+
+#menu .menu-item {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.125em;
+    line-height: 4.5em;
+    font-weight: 300;
+}
+
+.menu-item a {
+    text-decoration: inherit;
+    padding: 0.5em;    
+    color: #000;
+    
+}
+
+header .header-content {
+    width: 100%;
+    height: 82.5em;
+    background-image: url(../image/header_02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+h1.header-title {
+    color: #fff;
+    font-size: 4.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1.header-title span{
+    font-size: 0.5em;
+    font-weight: 300;
+}
+
+.header-images {
+    color: #fff;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.header-images figure {
+    width: 20em;
+    padding: 2em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-images figcaption {
+    font-size: 1.425em;
+    padding: 1em;
+}
+
+.header-images figcaption + p {
+    font-size: 0.9em;
+    padding: 0 0 5em 0;
+}
+
+.read {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.read-button {
+    border-radius: 6.25em;
+    background-color: #fff;
+    width: 13.25em;
+    text-align: center;
+    font-size: 1.125em;
+    color: #612316;
+    padding: 1em;
+/*    display: inline-block;*/
+}
+
+#our-news .news {
+    text-align: center;
+    font-size: 1.875em;
+    padding: 2em;
+}
+
+.section-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow: hidden; 
+}
+
+.section-photos figure {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 25em;
+}
+
+.section-photos figcaption {
+    font-size: 1.425em;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+}
+
+.section-photos figcaption + p {
+    font-size: 0.9em;
+    font-weight: 300;
+    padding: 0 1em 2em 1em;
+}
+
+.section-photos figure .read-more-btn {
+    border-radius: 6.25em;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 1em;
+    font-size: 0.9em;
+    font-weight: 300;
+    width: 11.25em;
+    margin-bottom: 5em;
+}
+
+article#newslatter {
+    background-image: url(../image/newslatter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 24em;
+}
+
+#newslatter .newslatter-title {
+    color: #fff;
+    font-size: 1.785em;
+    text-align: center;
+    padding: 3em 0 0.5em 0;
+}
+
+#newslatter .newslatter-title + p {
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newslatter-sign-up {
+    overflow: hidden;
+    width: 31em;
+    white-space: nowrap;
+    position: relative;
+    padding: 3em;
+    
+}
+
+.newslatter-sign-up input#email {
+    width: 31em;
+    height: 3.125em;
+    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+    float: left;
+    border: 0.1em solid #fff;
+    border-radius: 6.25em;
+    padding: 1em;
+}
+
+input[type="email"]::placeholder {
+    color: #fff;
+}
+
+.newslatter-sign-up button.sign-up-btn {
+    border: none;
+    border-radius: 6.25em;
+    cursor: pointer;
+    background: #fff;
+    color: #612316;
+    font-weight: 600;
+    height: 3.125em;
+    width: 8em;
+    font-size: 10pt;
+    position: absolute;
+    right: 0;
+}
+
+div.photo {
+    width: 36.625em;
+    height: 25.125em;
+    border: 0.1em solid #dbdbdb;
+}
+
+div.place1 {
+    float: right;
+}
+
+div.place2 {
+    float: left;
+}
