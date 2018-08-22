@@ -15,7 +15,15 @@ body {
 }
 
 .content {
-    display: flex;
+    display: inline-flex;
+    align-items: center;
+}
+
+.content-box {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70vw;
 }
 
 .red-square {
@@ -26,6 +34,16 @@ body {
     margin-top: 1.5em;
     margin-left: 2em;
     transform: rotate(45deg);
+}
+
+.first {
+    margin-left: 10em;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
 }
 
 .rectangle {
@@ -42,6 +60,14 @@ body {
     border-radius: 50%;
     border: .1em solid black;
     background-color: #008080;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
 }
 
 .sidebar-content {
@@ -49,6 +75,7 @@ body {
     height: 20em;
     background-color: #ffffff;
     border: .1em solid black;
+    margin-top: 2em;
 }
 
 .sidebar-content p {
